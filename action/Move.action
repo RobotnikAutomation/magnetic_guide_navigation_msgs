@@ -1,0 +1,14 @@
+# goal
+# x or y
+string axis
+# forward or backward
+string direction
+float64 distance
+float64 velocity
+---
+# result
+bool success
+geometry_msgs/Pose2D position
+---
+# feedback
+float64 remaining

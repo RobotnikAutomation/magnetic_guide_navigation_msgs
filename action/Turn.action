@@ -1,0 +1,11 @@
+# Define goal
+uint32 stop_position
+string axis
+string direction
+---
+# Define the result
+bool success
+---
+# Define a feedback message
+uint32 remaining_stops
+float32 angle

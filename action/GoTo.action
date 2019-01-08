@@ -1,0 +1,17 @@
+uint32 stop_position
+# x or y
+string axis
+# forward or backward
+string direction
+Direction[] forks
+float32[] velocities
+---
+# Define the result
+bool success
+geometry_msgs/Pose2D relative_error
+---
+# Define a feedback message
+uint32 remaining_stops
+uint32 remaining_forks
+# Following guide, Looking for fork, Forking, Blind navigation
+string state
