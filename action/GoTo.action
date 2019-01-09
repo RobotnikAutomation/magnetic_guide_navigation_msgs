@@ -5,6 +5,8 @@ string axis
 string direction
 Direction[] forks
 float32[] velocities
+# center, left, right, stop
+string[] steps
 ---
 # Define the result
 bool success
