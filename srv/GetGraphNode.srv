@@ -1,0 +1,5 @@
+int32 node_id
+---
+magnetic_guide_navigation_msgs/GraphNode node
+bool ret
+string msg
