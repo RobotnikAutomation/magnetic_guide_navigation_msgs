@@ -1,0 +1,11 @@
+uint16 node
+float32 orientation_offset
+float32 position_offset
+---
+# Define the result
+bool success
+string message
+---
+# Define a feedback message
+float32 remaining_distance
+uint16[] remaining_nodes
