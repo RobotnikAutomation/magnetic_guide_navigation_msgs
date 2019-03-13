@@ -13,3 +13,5 @@ geometry_msgs/Pose2D relative_error
 # Following guide, Looking for fork, Forking, Blind navigation
 string state
 string[] remaining_steps
+string current_action
+geometry_msgs/Pose2D relative_error
