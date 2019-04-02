@@ -3,12 +3,14 @@
 string axis
 # forward or backward
 string direction
+# travel distance
 float64 distance
-float64 velocity
 ---
 # result
 bool success
-geometry_msgs/Pose2D position
+geometry_msgs/Pose2D relative_error
 ---
 # feedback
+string state
 float64 remaining
+geometry_msgs/Pose2D relative_error
