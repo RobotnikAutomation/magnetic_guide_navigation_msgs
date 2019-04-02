@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
   geometry_msgs
+  robotnik_msgs
 )
 
 add_message_files(
@@ -17,6 +18,8 @@ add_message_files(
   GraphNodeArray.msg
   GraphArc.msg
   GraphArcIntersection.msg
+  MagneticLocalizationStatus.msg
+  MagneticSensor.msg
 )
 
 add_service_files(
@@ -38,23 +41,18 @@ add_action_files(
   GoToNode.action
 )
 
-## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
-# )
-
 generate_messages(
   DEPENDENCIES
   actionlib_msgs  # Or other packages containing msgs
   geometry_msgs
+  robotnik_msgs
 )
 
 
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES magnetic_guide_navigation_msgs
-   CATKIN_DEPENDS message_runtime std_msgs actionlib_msgs
+   CATKIN_DEPENDS message_runtime std_msgs actionlib_msgs robotnik_msgs
 #  DEPENDS system_lib
 )
 
