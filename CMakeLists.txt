@@ -20,6 +20,8 @@ add_message_files(
   GraphArcIntersection.msg
   MagneticLocalizationStatus.msg
   MagneticSensor.msg
+  SetNodeReq.msg
+  SetNodeRes.msg
 )
 
 add_service_files(

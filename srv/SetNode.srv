@@ -1,8 +1,4 @@
 # Service msg to set the node and orientation in the graph
-# Node in the graph
-uint16 node
-# radians
-float32 orientation
+SetNodeReq request
 ---
-bool success
-string message
+SetNodeRes response
