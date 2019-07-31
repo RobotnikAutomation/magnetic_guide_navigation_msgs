@@ -1,0 +1,5 @@
+std_msgs/Empty request
+---
+string graph
+bool success
+string message

@@ -31,6 +31,7 @@ add_service_files(
   GetGraphRoute.srv
   ReloadGraph.srv
   SetNode.srv
+  GetGraphRaw.srv
 )
 
 ## Generate actions in the 'action' folder
