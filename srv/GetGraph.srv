@@ -1,0 +1,4 @@
+# Service msg to set graph
+std_msgs/Empty request
+---
+GetGraphRes response

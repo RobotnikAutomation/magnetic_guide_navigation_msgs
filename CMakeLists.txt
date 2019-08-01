@@ -22,6 +22,9 @@ add_message_files(
   MagneticSensor.msg
   SetNodeReq.msg
   SetNodeRes.msg
+  SetGraphReq.msg
+  SetGraphRes.msg
+  GetGraphRes.msg
 )
 
 add_service_files(
@@ -32,6 +35,8 @@ add_service_files(
   ReloadGraph.srv
   SetNode.srv
   GetGraphRaw.srv
+  SetGraph.srv
+  GetGraph.srv
 )
 
 ## Generate actions in the 'action' folder
