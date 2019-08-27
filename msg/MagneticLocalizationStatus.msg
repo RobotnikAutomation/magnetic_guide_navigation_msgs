@@ -17,5 +17,5 @@ string graph_id
 string movement_axis
 string movement_direction
 geometry_msgs/Pose2D error_position_on_node
-MagneticSensor[] sensor_state
+MagneticSensor[] sensors_state
 robotnik_msgs/Pose2DStamped pose
