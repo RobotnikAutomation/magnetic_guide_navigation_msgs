@@ -47,6 +47,7 @@ add_action_files(
   Move.action
   Turn.action
   GoToNode.action
+  Center.action
 )
 
 generate_messages(

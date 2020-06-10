@@ -1,0 +1,11 @@
+# x or y
+string axis
+# true, false
+bool center_both
+---
+# Define the result
+bool success
+---
+# Define a feedback message
+# Following guide, Looking for fork, Forking, Blind navigation
+string state
